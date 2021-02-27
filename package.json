@@ -4,6 +4,7 @@
   "description": "API's used by Flick React App",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "dev": "nodemon index.js"
   },
   "author": "Aashish Vivekanand",
