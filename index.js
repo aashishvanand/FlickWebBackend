@@ -14,6 +14,6 @@ const movieRoute = require('./routes/movie');
 app.use('/v1/auth', authRoute);
 app.use('/v1/movie', movieRoute);
 
-app.listen(3001, function () {
-  console.log('server listening on 3001')
+app.listen(process.env.PORT || 3001, function () {
+  console.log('server listening')
 })
