@@ -1,0 +1,25 @@
+{
+  "name": "flickapi",
+  "version": "1.0.0",
+  "description": "API's used by Flick React App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Aashish Vivekanand",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "mongoose-paginate-v2": "^1.3.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
