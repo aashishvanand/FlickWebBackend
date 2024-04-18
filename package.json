@@ -10,7 +10,7 @@
   "author": "Aashish Vivekanand",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^0.28.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
